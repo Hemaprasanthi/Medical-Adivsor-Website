@@ -1,0 +1,50 @@
+.form{
+	clear:both;
+	text-align: center;
+	padding-top: 20px;
+	width:550px;
+	height:380px;
+	background-color: rgba(52, 73, 94,0.2);
+	border-radius: 8px;
+	margin:0  auto;
+}
+label{
+	margin-left: 0px;
+}
+input[type="text"]{
+	margin-top: 15px;
+	height:42px;
+	width: 300px;
+	font-size: :16px;
+	border-radius: 4px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 22px;
+	padding-left: 50px;
+	margin-left: 25px;
+}
+
+textarea{
+	height:90px;
+	width: 300px;
+	margin-top: 15px;
+	font-size: :16px;
+	margin-left: 75px;
+	border-radius: 4px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 22px;
+	padding-left: 32px;
+}
+.btn{
+	height:30px;
+	width: 300px;
+	margin-top: 12px;
+	margin-left: 75px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+}
