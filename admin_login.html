@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="admin_login.css">
+		<link rel="stylesheet" type="text/css" href="admin_login_button.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+
+		<title>Admin Login</title>
+
+		<style type="text/css">
+			body{
+				background: none;
+				background: linear-gradient(132deg, #ec5218, #1665c1);
+				background-size: 400% 400%;
+				animation: BackgroundGradient 10s ease infinite;
+			}
+
+			@keyframes BackgroundGradient{
+				0% {background-position: 0% 50%;}
+				50% {background-position: 100% 50%;}
+				100% {background-position: 0% 50%;}
+			}
+			.form{
+				position: absolute;
+				margin-top: 200px;
+				margin-left: 500px;
+			}
+			.btn-login{
+				height:35px;
+				width:130px;
+				margin-left: 70px;
+			}
+
+		</style>
+	</head>
+<body>
+	<!--<i class="icon-camera-retro"></i> icon-camera-retro-->
+
+	<header>
+		<div class="logo">
+				<h3><marquee>Admin Login</marquee></h3>
+		</div> <!-- end of "logo"-->
+
+	</header>
+
+	<div class="form fadeInDownBig animated ">
+	<form method="get" action="admin_home.php">
+		
+		 	<br>
+			<label>Username : </label><input type="text" name="name" required /><br><br>
+			<label>Password  : </label><input type="password" name="pass" required /><br><br>
+			<button class="button" type="submit"><span>Log In </span></button>
+			
+		
+	</div><!--end of "form"-->
+
+	</form>
+</body>
+</html> 

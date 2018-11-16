@@ -1,0 +1,129 @@
+body{
+	margin: 0 auto;
+	border-top:8px solid #ec8e08;
+	color:#888;
+	font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;
+	background-image: url("body-background.jpg");
+	
+	}
+
+fieldset{
+	align-items: center;
+}
+/**********************************LOGO******************/
+
+.logo {
+	float:left;
+	max-width:50%;
+
+}
+.logo a{
+	transition:color .5s;
+		-webkit-transition:color .5s;
+}
+.logo a:hover{	color:green;  }
+
+.logo i{
+	text-decoration: none;
+	display:inline-block;
+	
+	margin-top:0px;
+	padding-right:5px;
+}
+
+.logo h3{
+	border-left:2px solid #a1a1a1;
+	display:inline-block;
+	color:#a1a1a1;
+	font:1.75em "Trebuchet MS",Tahoma,Arial,sans-serif;
+	padding-left:10px;
+	position:relative;
+	top:-.2em;
+	
+}
+
+/************************SOCIAL***************/
+
+.social{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.social ul {
+	list-style-type:none;
+	padding-left:10px;
+	text-decoration: none;
+	margin-top:0;
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	text-decoration: none;
+}
+
+.social p{
+	font-size:.85em;
+	margin:6px 0 2px 0;
+}
+
+.social a{
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+/*.social a:hover {
+	color:#4099ff;
+}*/
+.facebook a:hover{	color:#6666FF;	}
+.gplus a:hover{	  color: #FF6666;}
+.instagram a:hover{	  color: #A00000}
+.twitter a:hover{	  color: #6699FF}
+.linkedin a:hover{	  color: #006699}
+
+
+/**********************FORM**********************/
+
+.form{
+	clear:both;
+	float:right;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.form a{
+	text-decoration: none;
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+.form a:hover{	color:#F00000; }
+
+input[type="text"],input[type="password"]{
+	height:27px;
+	width: 180px;
+	font-size: :16px;
+	border-radius: 4px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 22px;
+	padding-left: 32px;
+}
+
+
+input[type="submit"]{
+
+	height:44px;
+	padding: 10px 20px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+
+}

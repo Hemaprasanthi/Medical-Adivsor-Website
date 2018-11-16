@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pavan</title>
+
+	<script type="text/javascript">
+	    function pageRedirect() {
+	        window.location.replace("MainPage.php");
+	    }      
+	    setTimeout("pageRedirect()", 6000);
+	</script>
+
+	<style type="text/css">
+	body{background-color: #000;}
+		ul{
+			list-style: none;
+			position: absolute;
+		}
+		.fly-in-text{
+			left: 50%;
+			top: 35%;
+			transform: translateX(-50%) translateY(-50%);
+			padding-top: 200px;
+			
+		}
+		.fly-in-text li{
+			display: inline-block;
+			color: #fff;
+			margin-right: 40px;
+			font-family: Open Sans,Arial;
+			font-size: 4em;
+			opacity: 1;
+			transition: all 2.5s ease;
+		}
+		.fly-in-text li:last-child{
+			margin-right: 0;
+		}
+		ul li{
+			display: inline-block;
+		}
+
+		.fly-in-text.hidden li{
+		
+			opacity: 0;
+		}
+		.fly-in-text.hidden li:nth-child(1){transform: translateX(-200%) translateY(-200%);}
+		.fly-in-text.hidden li:nth-child(2){transform: translateX(20%) translateY(100%);}
+		.fly-in-text.hidden li:nth-child(3){transform: translateX(-150%) translateY(-80%);}
+		.fly-in-text.hidden li:nth-child(4){transform: translateX(10%) translateY(-200%);}
+		.fly-in-text.hidden li:nth-child(5){transform: translateX(-300%) translateY(200%);}
+		.fly-in-text.hidden li:nth-child(6){transform: translateX(20%) translateY(-20%);}
+		.fly-in-text.hidden li:nth-child(7){transform: translateX(30%) translateY(200%);}
+	</style>
+</head>
+<body>
+<ul class="fly-in-text hidden">
+		<li>W</li><li>E</li><li>L</li><li>C</li><li>O</li><li>M</li><li>E</li>
+
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>-->
+	<script src="jquery-3.2.0.min.js"></script>
+		<script type="text/javascript">
+			$(function()  {
+
+				setTimeout(function() {
+					$('.fly-in-text').removeClass('hidden');
+				}, 500);
+
+			})();
+		</script>
+
+</script>
+</body>
+</html>

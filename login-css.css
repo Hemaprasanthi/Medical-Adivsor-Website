@@ -1,0 +1,166 @@
+body{
+	margin:0 auto;
+	border-top:8px solid #ec8e08;
+	color:#888;
+	font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;
+	background-image: url("blue-shade.jpg");
+	
+	}
+
+
+/**********************************LOGO******************/
+
+.logo {
+	float:left;
+	max-width:50%;
+
+}
+.logo a{
+	transition:color .5s;
+		-webkit-transition:color .5s;
+}
+.logo a:hover{	color:green;  }
+
+.logo i{
+	text-decoration: none;
+	display:inline-block;
+	
+	margin-top:0px;
+	padding-right:5px;
+}
+
+.logo h3{
+	border-left:2px solid #a1a1a1;
+	display:inline-block;
+	color:#a1a1a1;
+	font:1.75em "Trebuchet MS",Tahoma,Arial,sans-serif;
+	padding-left:10px;
+	position:relative;
+	top:-.2em;
+	
+}
+
+/************************SOCIAL***************/
+
+.social{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.social ul {
+	list-style-type:none;
+	padding-left:10px;
+	text-decoration: none;
+	margin-top:0;
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	text-decoration: none;
+}
+
+.social p{
+	font-size:.85em;
+	margin:6px 0 2px 0;
+}
+
+.social a{
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+/*.social a:hover {
+	color:#4099ff;
+}*/
+.facebook a:hover{	color:#6666FF;	}
+.gplus a:hover{	  color: #FF6666;}
+.instagram a:hover{	  color: #CC33CC}
+.twitter a:hover{	  color: #6699FF}
+.linkedin a:hover{	  color: #006699}
+.snapchat a:hover{	color: #CCCC33;}
+
+/**********************FORM**********************/
+
+.form{
+	clear:both;
+	text-align: center;
+	padding-top: 20px;
+	width:500px;
+	height:400px;
+	background-color: rgba(52, 73, 94,0.2);
+	border-radius: 8px;
+	margin:0  auto;
+	}
+
+.form  img{
+	border-radius: 50% 50% 50% 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: -60px;
+	margin-bottom: 40px;
+}
+
+input[type="text"],input[type="password"]{
+	height:42px;
+	width: 300px;
+	font-size: :16px;
+	border-radius: 4px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 22px;
+	padding-left: 32px;
+}
+
+.form-input::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size:30px;
+	color: #985986;
+	padding-left: 90px;
+	padding-top: 6px;
+}
+.form-input:nth-child(2)::before{
+	content:"\f023";
+	padding-left: 87px;
+}
+
+.btn-login{
+	height:44px;
+	padding: 15px 25px;
+	color:#fff;
+	border:none;
+	border-radius:4px;
+	background-color: #2ECC71;
+	border-bottom: 5px solid #27AE60;
+	cursor: pointer;
+}
+
+.btn-SignUp{
+	height:44px;
+	padding: 15px 20px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+}
+.form a{	
+	text-decoration: none;
+}
+p{
+	color: #CCCCFF;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+p:hover{ 
+	color:#99CC33;
+}
+
+/**********************FOOTER************************/
+

@@ -1,0 +1,513 @@
+body{
+	margin: 0;
+	padding: 4px;
+	color:white;
+	font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;
+	background-image: url("SignUp-back.jpg") #0f2439 no-repeat center top;
+	background-size: cover;
+}
+
+/*****************************LOGO*************************/
+.logo {
+	float:left;
+	max-width:50%;
+
+}
+.logo a{
+	transition:color .5s;
+		-webkit-transition:color .5s;
+}
+.logo a:hover{	color:green;  }
+
+.logo i{
+	text-decoration: none;
+	display:inline-block;
+	
+	margin-top:0px;
+	padding-right:5px;
+}
+
+.logo h3{
+	border-left:2px solid #a1a1a1;
+	display:inline-block;
+	color:#FFFF33;
+	font:1.75em "Trebuchet MS",Tahoma,Arial,sans-serif;
+	padding-left:10px;
+	position:relative;
+	top:-.2em;
+	
+}
+
+/************************SOCIAL***************/
+
+.social{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.social ul {
+	list-style-type:none;
+	padding-left:10px;
+	text-decoration: none;
+	margin-top:0;
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	text-decoration: none;
+}
+
+.social p{
+	font-size:.85em;
+	margin:6px 0 2px 0;
+}
+
+.social a{
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+/*.social a:hover {
+	color:#4099ff;
+}*/
+.facebook a:hover{	color:#6666FF;	}
+.gplus a:hover{	  color: #FF6666;}
+.instagram a:hover{	  color: #CC33CC;}
+.twitter a:hover{	  color: #6699FF;}
+.linkedin a:hover{	  color: #006699;}
+.snapchat a:hover{	color: #CCCC33;}
+
+/****************************************FORM******************************/
+
+.form{
+	clear:both;
+	text-align: center;
+	width: 700px;
+	height: 1000px;
+	padding-top: 20px;
+	margin: 0 auto;
+
+	border-radius: 7px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.form img{
+	width: 135px;
+	height: 135px;
+	margin-top: -78px;
+	margin-bottom: 40px;
+}
+
+.form-input{
+	background: transparent;
+}
+label{
+	display: inline-block;
+	float: left;
+	width:200px;
+	text-align: right;
+	padding-top: 13px;
+	padding-right: 13px;
+}
+input[type="submit"]{
+				margin-left: 68px;
+				margin-top: 10px;
+				height: 44px;
+				width:70px;
+				color:#fff;
+				border: none;
+				border-radius: 4px;
+				background-color: #FF0033;
+				border-bottom: 5px solid #CC3333;
+				cursor: pointer;
+}
+
+input[type="text"],input[type="password"]{
+
+	display: inline-block;
+	float: left;
+
+	height: 45px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+}
+
+.btn-sign{
+	height: 44px;
+	width:70px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+}
+
+select{
+
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	height: 35px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+
+body{
+	margin: 0;
+	padding: 4px;
+	color:white;
+	font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;
+	background-image: url("SignUp-back.jpg") #0f2439 no-repeat center top;
+	background-size: cover;
+}
+
+/*****************************LOGO*************************/
+.logo {
+	float:left;
+	max-width:50%;
+
+}
+.logo a{
+	transition:color .5s;
+		-webkit-transition:color .5s;
+}
+.logo a:hover{	color:green;  }
+
+.logo i{
+	text-decoration: none;
+	display:inline-block;
+	
+	margin-top:0px;
+	padding-right:5px;
+}
+
+.logo h3{
+	border-left:2px solid #a1a1a1;
+	display:inline-block;
+	color:#FFFF33;
+	font:1.75em "Trebuchet MS",Tahoma,Arial,sans-serif;
+	padding-left:10px;
+	position:relative;
+	top:-.2em;
+	
+}
+
+/************************SOCIAL***************/
+
+.social{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.social ul {
+	list-style-type:none;
+	padding-left:10px;
+	text-decoration: none;
+	margin-top:0;
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	text-decoration: none;
+}
+
+.social p{
+	font-size:.85em;
+	margin:6px 0 2px 0;
+}
+
+.social a{
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+/*.social a:hover {
+	color:#4099ff;
+}*/
+.facebook a:hover{	color:#6666FF;	}
+.gplus a:hover{	  color: #FF6666;}
+.instagram a:hover{	  color: #CC33CC;}
+.twitter a:hover{	  color: #6699FF;}
+.linkedin a:hover{	  color: #006699;}
+.snapchat a:hover{	color: #CCCC33;}
+
+/****************************************FORM******************************/
+
+.form{
+	clear:both;
+	text-align: center;
+	width: 700px;
+	height: 1000px;
+	padding-top: 20px;
+	margin: 0 auto;
+
+	border-radius: 7px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.form img{
+	width: 135px;
+	height: 135px;
+	margin-top: -78px;
+	margin-bottom: 40px;
+}
+
+.form-input{
+	background: transparent;
+}
+label{
+	display: inline-block;
+	float: left;
+	width:200px;
+	text-align: right;
+	padding-top: 13px;
+	padding-right: 13px;
+}
+input[type="submit"]{
+				margin-left: 68px;
+				margin-top: 10px;
+				height: 44px;
+				width:70px;
+				color:#fff;
+				border: none;
+				border-radius: 4px;
+				background-color: #FF0033;
+				border-bottom: 5px solid #CC3333;
+				cursor: pointer;
+}
+
+input[type="text"],input[type="password"]{
+
+	display: inline-block;
+	float: left;
+
+	height: 45px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+}
+
+.btn-sign{
+	height: 44px;
+	width:70px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+}
+
+select{
+
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	height: 35px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+
+body{
+	margin: 0;
+	padding: 4px;
+	color:white;
+	font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;
+	background-image: url("SignUp-back.jpg") #0f2439 no-repeat center top;
+	background-size: cover;
+}
+
+/*****************************LOGO*************************/
+.logo {
+	float:left;
+	max-width:50%;
+
+}
+.logo a{
+	transition:color .5s;
+		-webkit-transition:color .5s;
+}
+.logo a:hover{	color:green;  }
+
+.logo i{
+	text-decoration: none;
+	display:inline-block;
+	
+	margin-top:0px;
+	padding-right:5px;
+}
+
+.logo h3{
+	border-left:2px solid #a1a1a1;
+	display:inline-block;
+	color:#FFFF33;
+	font:1.75em "Trebuchet MS",Tahoma,Arial,sans-serif;
+	padding-left:10px;
+	position:relative;
+	top:-.2em;
+	
+}
+
+/************************SOCIAL***************/
+
+.social{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.social ul {
+	list-style-type:none;
+	padding-left:10px;
+	text-decoration: none;
+	margin-top:0;
+}
+
+.social ul li{
+	display: inline-block;
+}
+.social ul li a i{
+	text-decoration: none;
+}
+
+.social p{
+	font-size:.85em;
+	margin:6px 0 2px 0;
+}
+
+.social a{
+	color:#a1a1a1;
+	transition:color .5s;
+	-webkit-transition:color .5s;
+}
+
+/*.social a:hover {
+	color:#4099ff;
+}*/
+.facebook a:hover{	color:#6666FF;	}
+.gplus a:hover{	  color: #FF6666;}
+.instagram a:hover{	  color: #CC33CC;}
+.twitter a:hover{	  color: #6699FF;}
+.linkedin a:hover{	  color: #006699;}
+.snapchat a:hover{	color: #CCCC33;}
+
+/****************************************FORM******************************/
+
+.form{
+	clear:both;
+	text-align: center;
+	width: 700px;
+	height: 1000px;
+	padding-top: 20px;
+	margin: 0 auto;
+
+	border-radius: 7px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.form img{
+	width: 135px;
+	height: 135px;
+	margin-top: -78px;
+	margin-bottom: 40px;
+}
+
+.form-input{
+	background: transparent;
+}
+label{
+	display: inline-block;
+	float: left;
+	width:200px;
+	text-align: right;
+	padding-top: 13px;
+	padding-right: 13px;
+}
+input[type="submit"]{
+				margin-left: 68px;
+				margin-top: 10px;
+				height: 44px;
+				width:70px;
+				color:#fff;
+				border: none;
+				border-radius: 4px;
+				background-color: #FF0033;
+				border-bottom: 5px solid #CC3333;
+				cursor: pointer;
+}
+
+input[type="text"],input[type="password"]{
+
+	display: inline-block;
+	float: left;
+
+	height: 45px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+}
+
+.btn-sign{
+	height: 44px;
+	width:70px;
+	color:#fff;
+	border: none;
+	border-radius: 4px;
+	background-color: #FF0033;
+	border-bottom: 5px solid #CC3333;
+	cursor: pointer;
+}
+
+select{
+
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	height: 35px;
+	width: 350px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-bottom: 34px;
+	border: none;
+	background-color: #fff;
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+
